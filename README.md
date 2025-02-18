@@ -88,3 +88,12 @@ The training process involved experimenting with various configurations of the *
 - **Results**: The results will be in a separate file.
 - **Outcome**: The optimized model achieved the **highest accuracy**, with a significant reduction in **false positives** and **false negatives**.
 
+<img src="https://github.com/Sanad-Hamarneh/-Mask-Detection-Model/blob/363bc94e24067a2f6338e1acd6000c304ee3afa8/confusion_matrix.png" alt="Confusion Matrix" width="300"/>
+
+<img src="https://github.com/Sanad-Hamarneh/-Mask-Detection-Model/blob/main/val_batch0_labels.jpg" alt="Validation Batch 0 Labels" width="300"/>
+
+<img src="https://github.com/Sanad-Hamarneh/-Mask-Detection-Model/blob/main/val_batch0_pred.jpg" alt="Validation Batch 0 Prediction" width="300"/>
+
+<img src="https://github.com/Sanad-Hamarneh/-Mask-Detection-Model/blob/main/val_batch1_labels.jpg" alt="Validation Batch 1 Labels" width="300"/>
+
+<img src="https://github.com/Sanad-Hamarneh/-Mask-Detection-Model/blob/main/val_batch1_pred.jpg" alt="Validation Batch 1 Prediction" width="300"/>
