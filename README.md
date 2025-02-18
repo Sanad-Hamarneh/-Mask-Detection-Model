@@ -2,7 +2,7 @@
 
 ## 1.1 Introduction
 
-Masks play a crucial role in protecting the health of individuals against respiratory diseases, especially in the absence of immunization. During the COVID-19 pandemic, wearing a mask became one of the primary precautions available to protect individuals from contracting or spreading the virus. This project focuses on creating a model to detect whether people are **wearing masks**, **not wearing them**, or **wearing masks incorrectly**.
+Masks play a crucial role in protecting the health of individuals against respiratory diseases, especially in the absence of immunization. During the COVID-19 pandemic, wearing a mask became one of the primary precautions available to protect individuals from contracting or spreading the virus. This project focuses on creating a model to detect whether people are **wearing masks**, **not wearing them**.
 
 ## 1.2 Dataset
 
@@ -10,7 +10,6 @@ Masks play a crucial role in protecting the health of individuals against respir
 The images for this project have been sourced from **Kaggle**. The dataset contains **853 images**, each annotated with bounding boxes in the **PASCAL VOC** format. The images are categorized into three classes:
 - **With mask**
 - **Without mask**
-- **Mask worn incorrectly**
 
 ### 1.2.2 Description
 The dataset used for training and evaluating the model includes:
@@ -19,7 +18,6 @@ The dataset used for training and evaluating the model includes:
 - **Class Distribution**:
   - **With mask**: Images where individuals are wearing masks correctly.
   - **Without mask**: Images where individuals are not wearing masks.
-  - **Mask worn incorrectly**: Images where individuals are wearing masks incorrectly.
 
 ### 1.2.3 Annotation Process
 The selected images were manually annotated to ensure accurate bounding boxes around the detected objects. This process involved:
